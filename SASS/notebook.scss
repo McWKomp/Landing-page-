@@ -1,0 +1,111 @@
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .main-header {
+        .header-body {
+            padding: 20px 50px;
+
+            .header {
+                .container {
+                    .button {
+                        &:last-of-type {
+                            margin-left: 20px;
+                        }
+                    }
+                }
+            }
+
+            .main {
+                .container {
+                    .paragraph {
+                        width: 100%;
+                    }
+
+                    &:nth-of-type(3) {
+                        .paragraph {
+                            .list {
+                                .list-item {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .container.row.group {
+                    flex-direction: row;
+
+                    .col {
+                        align-items: center;
+                        padding: 10px;
+
+                        span {
+                            width: max-content;
+                        }
+
+
+                        p {
+                            padding: 0 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    //Main
+
+    .main-content {
+        .main-body {
+            padding: 20px 50px;
+
+            .container.plan {
+                .main {
+
+                    .col-rectangle {
+                        margin: 20px;
+                        padding: 40px 5%;
+
+                    }
+                }
+            }
+
+            .row-rectangle {
+                padding: 30px 0;
+
+                .brand-svg {
+                    width: 100%;
+                    padding: 20px 0;
+                }
+            }
+
+            .carousel {
+                .main {
+                    margin-left: 1700px;
+                }
+            }
+
+            .container.row.group {
+
+                .col {
+                    .button {
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+    //Footer
+    .main-footer {
+        .footer-body {
+            padding: 130px 50px 50px 50px;
+
+            .list-group {
+                margin-top: 5%;
+
+                .list {
+                    margin: 40px 0 20px 0;
+                }
+            }
+        }
+    }
+}

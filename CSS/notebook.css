@@ -1,0 +1,57 @@
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .main-header .header-body {
+    padding: 20px 50px;
+  }
+  .main-header .header-body .header .container .button:last-of-type {
+    margin-left: 20px;
+  }
+  .main-header .header-body .main .container .paragraph {
+    width: 100%;
+  }
+  .main-header .header-body .main .container:nth-of-type(3) .paragraph .list .list-item {
+    width: 100%;
+  }
+  .main-header .header-body .main .container.row.group {
+    flex-direction: row;
+  }
+  .main-header .header-body .main .container.row.group .col {
+    align-items: center;
+    padding: 10px;
+  }
+  .main-header .header-body .main .container.row.group .col span {
+    width: -moz-max-content;
+    width: max-content;
+  }
+  .main-header .header-body .main .container.row.group .col p {
+    padding: 0 20px;
+  }
+  .main-content .main-body {
+    padding: 20px 50px;
+  }
+  .main-content .main-body .container.plan .main .col-rectangle {
+    margin: 20px;
+    padding: 40px 5%;
+  }
+  .main-content .main-body .row-rectangle {
+    padding: 30px 0;
+  }
+  .main-content .main-body .row-rectangle .brand-svg {
+    width: 100%;
+    padding: 20px 0;
+  }
+  .main-content .main-body .carousel .main {
+    margin-left: 1700px;
+  }
+  .main-content .main-body .container.row.group .col .button {
+    font-size: 30px;
+  }
+  .main-footer .footer-body {
+    padding: 130px 50px 50px 50px;
+  }
+  .main-footer .footer-body .list-group {
+    margin-top: 5%;
+  }
+  .main-footer .footer-body .list-group .list {
+    margin: 40px 0 20px 0;
+  }
+}

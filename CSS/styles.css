@@ -1,0 +1,532 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+button {
+  border: none;
+}
+
+* {
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+.main-header {
+  background: rgb(255, 255, 255);
+}
+.main-header .header-body {
+  padding: 30px 80px;
+}
+.main-header .header-body > .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+.main-header .header-body > .header .brand {
+  flex-grow: 1;
+}
+.main-header .header-body > .header .brand h1 {
+  font-size: 40px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.main-header .header-body > .header .brand h1 span {
+  font-size: 40px;
+  color: rgb(71, 71, 255);
+}
+.main-header .header-body > .header .list {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 2;
+}
+.main-header .header-body > .header .list .list-item .link {
+  text-decoration: none;
+  color: #222;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.main-header .header-body > .header .list .list-item .link:hover {
+  color: rgb(71, 71, 255);
+}
+.main-header .header-body > .header .container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1;
+}
+.main-header .header-body > .header .container .button {
+  padding: 10px 40px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.main-header .header-body > .header .container .button:first-of-type {
+  background: #222;
+  color: whitesmoke;
+}
+.main-header .header-body > .header .container .button:first-of-type:hover {
+  background-color: rgb(71, 71, 255);
+}
+.main-header .header-body > .header .container .button:last-of-type {
+  margin-left: 60px;
+  background-color: white;
+  box-shadow: inset rgb(51, 51, 51) 0px 0px 0px 2px;
+}
+.main-header .header-body > .header .container .button:last-of-type:hover {
+  color: rgb(71, 71, 255);
+  box-shadow: inset rgb(71, 71, 255) 0px 0px 0px 2px;
+}
+.main-header .header-body .main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-header .header-body .main .container {
+  padding: 100px 0px 50px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main-header .header-body .main .container:last-of-type {
+  flex-direction: row-reverse;
+}
+.main-header .header-body .main .container:last-of-type .paragraph .list {
+  font-size: 20px;
+}
+.main-header .header-body .main .container:last-of-type .paragraph .list .list-item {
+  display: flex;
+  padding: 5px;
+  margin: 5px 0px;
+  transition: 0.3s;
+  border-radius: 30px;
+  width: -moz-max-content;
+  width: max-content;
+  box-shadow: rgba(50, 50, 93, 0.1) 0px 0px 0px 0px, rgba(0, 0, 0, 0.15) 0px 0px 0px 0px;
+}
+.main-header .header-body .main .container:last-of-type .paragraph .list .list-item .material-symbols-outlined {
+  color: rgb(71, 71, 255);
+  padding: 0px 10px 0px 0px;
+}
+.main-header .header-body .main .container:last-of-type .paragraph .list .list-item:hover {
+  box-shadow: rgba(50, 50, 93, 0.1) 0px 13px 27px -5px, rgba(0, 0, 0, 0.15) 0px 8px 16px -8px;
+  transform: scale(1.02);
+  color: rgb(71, 71, 255);
+}
+.main-header .header-body .main .container .paragraph {
+  width: 90%;
+}
+.main-header .header-body .main .container .paragraph .header h2 {
+  font-size: 50px;
+  transition: 0.5s;
+}
+.main-header .header-body .main .container .paragraph .text {
+  padding: 40px 0px;
+}
+.main-header .header-body .main .container .paragraph .text p {
+  font-size: 20px;
+}
+.main-header .header-body .main .container .paragraph .footer .button {
+  font-size: 30px;
+  padding: 10px 70px;
+  background: #fff;
+  transition: 0.5s;
+  box-shadow: inset rgb(51, 51, 51) 0px 0px 0px 2px;
+}
+.main-header .header-body .main .container .paragraph .footer .button:hover {
+  color: whitesmoke;
+  background: rgb(71, 71, 255);
+  box-shadow: inset rgb(51, 51, 51) 0px 0px 0px 0px, rgba(71, 71, 255, 0.4) 0px 30px 60px -12px, rgba(71, 71, 255, 0.6) 0px 18px 36px -18px;
+}
+.main-header .header-body .main .container .svg {
+  width: 100%;
+}
+.main-header .header-body .main .container .svg img {
+  width: 100%;
+}
+.main-header .header-body .main .container.row.group {
+  display: flex;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 25px 50px -12px;
+  border-radius: 30px;
+  width: 80%;
+}
+.main-header .header-body .main .container.row.group .col {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.main-header .header-body .main .container.row.group .col p {
+  padding-left: 20px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.main-header .header-body .main .container.row.group .col p b {
+  font-size: 30px;
+}
+.main-header .header-body .main .container.row.group .col .material-symbols-outlined {
+  font-size: 80px;
+  background-color: rgb(178, 212, 251);
+  padding: 10px;
+  border-radius: 50%;
+}
+.main-header .header-body .main .container.row.group .col:first-of-type, .main-header .header-body .main .container.row.group .col:nth-of-type(2) {
+  border-right: 1px rgba(153, 153, 153, 0.5764705882) solid;
+}
+
+.main-content {
+  background: whitesmoke;
+}
+.main-content .main-body {
+  padding: 30px 80px;
+}
+.main-content .main-body .container.plan {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.main-content .main-body .container.plan .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0px;
+}
+.main-content .main-body .container.plan .header h3 {
+  font-size: 50px;
+  transition: 0.4s;
+  color: rgb(71, 71, 255);
+}
+.main-content .main-body .container.plan .header p {
+  margin-top: 30px;
+  font-size: 20px;
+}
+.main-content .main-body .container.plan .main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.main-content .main-body .container.plan .main .col-rectangle {
+  padding: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(158, 158, 158, 0.4) 0px 0px 0px 3px;
+  transition: 0.4s;
+  border-radius: 20px;
+}
+.main-content .main-body .container.plan .main .col-rectangle h4 {
+  font-size: 30px;
+  margin-top: 50px;
+}
+.main-content .main-body .container.plan .main .col-rectangle .list {
+  padding-top: 20px;
+}
+.main-content .main-body .container.plan .main .col-rectangle .list .list-item {
+  font-size: 20px;
+  padding: 20px;
+  display: flex;
+}
+.main-content .main-body .container.plan .main .col-rectangle .list .list-item .material-symbols-outlined {
+  color: rgb(71, 71, 255);
+}
+.main-content .main-body .container.plan .main .col-rectangle .svg {
+  width: 100%;
+}
+.main-content .main-body .container.plan .main .col-rectangle .svg img {
+  width: 100%;
+}
+.main-content .main-body .container.plan .main .col-rectangle .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.main-content .main-body .container.plan .main .col-rectangle .container p {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.main-content .main-body .container.plan .main .col-rectangle .container .button {
+  font-size: 30px;
+  padding: 10px 60px;
+  background: transparent;
+  transition: 0.4s;
+  box-shadow: inset rgb(51, 51, 51) 0px 0px 0px 2px;
+}
+.main-content .main-body .container.plan .main .col-rectangle .container .button:hover {
+  color: white;
+  box-shadow: none;
+  background: #222;
+}
+.main-content .main-body .container.plan .main .col-rectangle .container .button:active {
+  background-color: rgb(71, 71, 255);
+  box-shadow: inset rgb(51, 51, 51) 0px 0px 0px 0px, rgba(71, 71, 255, 0.4) 0px 30px 60px -12px, rgba(71, 71, 255, 0.6) 0px 18px 36px -18px;
+}
+.main-content .main-body .container.map {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-content .main-body .container.map .header {
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-content .main-body .container.map .header h3 {
+  font-size: 50px;
+  color: rgb(71, 71, 255);
+}
+.main-content .main-body .container.map .header p {
+  margin-top: 30px;
+  font-size: 20px;
+}
+.main-content .main-body .container.map img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-content .main-body .row-rectangle {
+  padding: 100px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-content .main-body .row-rectangle .brand-svg {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-content .main-body .row-rectangle .brand-svg .link {
+  display: flex;
+  justify-content: center;
+}
+.main-content .main-body .row-rectangle .brand-svg svg {
+  width: 50%;
+  transition: 0.4s;
+}
+.main-content .main-body .row-rectangle .brand-svg:hover svg {
+  fill: rgb(71, 71, 255);
+}
+.main-content .main-body .carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.main-content .main-body .carousel .header {
+  text-align: center;
+  padding: 100px 0;
+}
+.main-content .main-body .carousel .header h3 {
+  font-size: 50px;
+  color: rgb(71, 71, 255);
+}
+.main-content .main-body .carousel .header p {
+  font-size: 20px;
+  margin-top: 30px;
+}
+.main-content .main-body .carousel .main {
+  display: flex;
+  transition: 0.5s;
+  margin-left: 100%;
+}
+.main-content .main-body .carousel .main .container.active {
+  box-shadow: inset rgb(71, 71, 255) 0px 0px 0px 2px, rgba(71, 71, 255, 0.2) 0px 30px 80px -22px, rgba(71, 71, 255, 0.3) 0px 28px 56px -30px;
+}
+.main-content .main-body .carousel .main .container {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: inset rgba(158, 158, 158, 0.4) 0px 0px 0px 2px;
+  padding: 30px;
+  margin: 30px;
+  font-size: 20px;
+  transition: 0.3s;
+  width: 500px;
+}
+.main-content .main-body .carousel .main .container .profile {
+  display: flex;
+}
+.main-content .main-body .carousel .main .container .profile .pfp {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-content .main-body .carousel .main .container .profile span {
+  margin-left: 15px;
+}
+.main-content .main-body .carousel .main .container .profile span img {
+  height: 100%;
+}
+.main-content .main-body .carousel .main .container .profile span p:first-of-type {
+  font-weight: 900;
+  font-size: 25px;
+}
+.main-content .main-body .carousel .main .container .profile span span {
+  display: flex;
+  flex-direction: row;
+  height: clamp(1.5vw, 30px, 8vw);
+  font-size: clamp(2vw, 40px, 8vw);
+  margin: 15px 0 0 0;
+}
+.main-content .main-body .carousel .main .container .text {
+  margin-top: 15px;
+}
+.main-content .main-body .carousel .footer {
+  width: 100%;
+}
+.main-content .main-body .carousel .footer .container {
+  margin-right: 5%;
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+.main-content .main-body .carousel .footer .container .button {
+  padding: 20px;
+  height: 64px;
+  transition: 0.3s;
+  background: #222;
+  color: whitesmoke;
+  border-radius: 50%;
+}
+.main-content .main-body .carousel .footer .container .button:active {
+  background: rgb(71, 71, 255);
+  box-shadow: rgba(71, 71, 255, 0.4) 0px 30px 60px -5px, rgba(71, 71, 255, 0.6) 0px 18px 36px -8px;
+}
+.main-content .main-body .carousel .footer .container .button:last-of-type {
+  margin-left: 40px;
+}
+.main-content .main-body .carousel .footer .button-wrapper {
+  display: flex;
+}
+.main-content .main-body .carousel .footer .button-wrapper .dot {
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  transition: 0.25s;
+  background: rgb(202, 202, 202);
+}
+.main-content .main-body .carousel .footer .button-wrapper .dot.active {
+  width: 100px;
+  box-shadow: inset rgb(71, 71, 255) 0px 0px 0px 2px;
+  background: rgb(71, 71, 255);
+}
+.main-content .main-body .container.row.group {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 25px 50px -12px;
+  border-radius: 30px;
+  width: 80%;
+  background: #fff;
+  margin: auto;
+  transform: translateY(60%);
+}
+.main-content .main-body .container.row.group .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-content .main-body .container.row.group .col h2 {
+  font-size: 40px;
+}
+.main-content .main-body .container.row.group .col p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.main-content .main-body .container.row.group .col .button {
+  background: #222;
+  transition: 0.4s;
+  font-size: 40px;
+  padding: 10px 60px;
+  border-radius: 10px;
+  color: whitesmoke;
+}
+.main-content .main-body .container.row.group .col .button:hover {
+  background: rgb(71, 71, 255);
+  box-shadow: rgba(71, 71, 255, 0.2) 0px 30px 80px -5px, rgba(71, 71, 255, 0.3) 0px 18px 36px -8px;
+}
+
+.main-footer {
+  background: rgb(235, 235, 235);
+}
+.main-footer .footer-body {
+  padding: 10% 80px 80px 80px;
+  display: flex;
+  flex-direction: row;
+}
+.main-footer .footer-body .list-group {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.main-footer .footer-body .list-group .list-header {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.main-footer .footer-body .list-group .list .list-item {
+  font-size: 20px;
+  padding: 5px 0px;
+}
+.main-footer .footer-body .list-group .list .list-item a {
+  color: #a8a8a8;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.main-footer .footer-body .list-group .list .list-item a:hover {
+  color: rgb(71, 71, 255);
+}
+.main-footer .footer-body .group {
+  width: 100%;
+  font-size: 20px;
+}
+.main-footer .footer-body .group .brand.logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.main-footer .footer-body .group .brand.logo .material-symbols-outlined {
+  color: rgb(71, 71, 255);
+  font-size: 40px;
+}
+.main-footer .footer-body .group .link-group {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  padding: 30px 0px;
+}
+.main-footer .footer-body .group .link-group .brand.link {
+  width: 70px;
+}
+.main-footer .footer-body .group .link-group .brand.link .link {
+  display: flex;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 10px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.main-footer .footer-body .group .link-group .brand.link .link .svg {
+  transition: 0.3s;
+}
+.main-footer .footer-body .group .link-group .brand.link .link:hover .svg {
+  fill: rgb(255, 255, 255);
+}
+.main-footer .footer-body .group .link-group .brand.link .link:hover {
+  transform: scale(1.02);
+  background-color: rgb(71, 71, 255);
+  box-shadow: rgba(71, 71, 255, 0.4) 0px 10px 20px -4px, rgba(71, 71, 255, 0.6) 0px 5px 12px -5px;
+}

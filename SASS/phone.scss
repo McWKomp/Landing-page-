@@ -1,0 +1,155 @@
+@media screen and (max-width: 767px) {
+
+    .main-header {
+        .header-body {
+            padding: 10px 5%;
+
+            .header {
+                flex-direction: column;
+
+                .list {
+                    padding: 20px 0;
+                    width: 100%;
+
+                    .list-item {
+                        padding: 2%;
+
+                        .link {
+                            font-size: 15px;
+                        }
+                    }
+                }
+
+                .container {
+                    .button {
+                        font-size: 15px;
+                        padding: 10px 30px;
+                    }
+                }
+            }
+
+            .svg {
+                display: none;
+            }
+
+
+            .main {
+                .container {
+                    .paragraph {
+                        width: 100%;
+                    }
+
+                    &:nth-of-type(3) {
+                        .paragraph {
+                            .list {
+                                .list-item {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .container.row.group {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    width: 100%;
+
+                    .col {
+                        justify-content: flex-start;
+                        padding: 10px 0;
+
+                        &:nth-of-type(1),
+                        &:nth-of-type(2) {
+                            border-right: none;
+                        }
+
+                        p {
+                            padding: 0 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    //Main
+
+    .main-content {
+        .main-body {
+            padding: 10px 5%;
+
+            .container.plan {
+                .main {
+                    flex-direction: column;
+
+                    .col-rectangle {
+                        margin: 20px 0;
+                        padding: 40px 5%;
+                    }
+                }
+            }
+
+            .row-rectangle {
+                flex-direction: column;
+                padding: 30px 0;
+
+                .brand-svg {
+                    width: 100%;
+                    padding: 20px 0;
+                }
+            }
+
+            .carousel {
+                .main {
+                    margin-left: 1080px;
+
+                    .container {
+                        width: 300px;
+                    }
+                }
+
+                .footer {
+                    .container {
+                        justify-content: center;
+                    }
+
+                    .button-wrapper {
+                        margin-top: 50px;
+                        justify-content: space-evenly;
+                    }
+                }
+            }
+
+            .container.row.group {
+                flex-direction: column;
+                width: 100%;
+
+                .col {
+                    .button {
+                        font-size: 20px;
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+    //Footer
+    .main-footer {
+        .footer-body {
+            padding: 45% 5% 50px 5%;
+            flex-direction: column;
+
+            .list-group {
+                margin-top: 15%;
+                flex-direction: column;
+
+                .list {
+                    margin: 40px 0 20px 0;
+                }
+            }
+        }
+    }
+
+}

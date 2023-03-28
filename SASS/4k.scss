@@ -1,0 +1,304 @@
+@media screen and (min-width: 1570px) {
+
+    //header
+    .main-header {
+        .header-body {
+            padding: 50px 140px;
+
+            >.header {
+                .brand {
+                    h1 {
+                        font-size: 60px;
+
+                        span {
+                            font-size: 60px;
+                        }
+                    }
+                }
+
+                .list {
+                    .list-item {
+                        .link {
+                            font-size: 40px;
+                        }
+                    }
+                }
+
+                .container {
+                    .button {
+                        font-size: 40px;
+                    }
+                }
+            }
+
+            .main {
+                .container.row.group {
+                    margin: 100px 0;
+
+                    .col {
+
+                        p {
+                            font-size: 40px;
+
+                            b {
+                                font-size: 40px;
+                            }
+                        }
+
+                        .material-symbols-outlined {
+                            font-size: 100px;
+                        }
+                    }
+                }
+
+
+                .container {
+                    &:last-of-type {
+                        .list {
+                            .list-item {
+                                p {
+                                    font-size: 40px;
+
+
+                                }
+
+                                span {
+                                    font-size: 40px;
+                                }
+                            }
+                        }
+                    }
+
+                    .paragraph {
+                        .header {
+                            h2 {
+                                font-size: 100px;
+                            }
+                        }
+
+                        .text {
+                            p {
+                                font-size: 40px;
+                            }
+                        }
+
+                        .footer {
+                            .button {
+                                font-size: 40px;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    //Main
+    .main-content {
+        .main-body {
+            padding: 50px 140px;
+
+            .container.plan {
+                .header {
+                    padding: 150px 0;
+
+                    h3 {
+                        font-size: 100px;
+                    }
+
+                    p {
+                        font-size: 50px;
+                    }
+                }
+
+                .main {
+                    .col-rectangle {
+                        h4 {
+                            font-size: 60px;
+                        }
+
+                        .svg {
+                            img {
+                                height: 400px;
+                            }
+                        }
+
+                        .list {
+                            .list-item {
+                                font-size: 40px;
+
+                                span {
+                                    font-size: 40px;
+                                }
+                            }
+                        }
+
+                        .container {
+                            p {
+                                font-size: 40px;
+                            }
+
+                            .button {
+                                font-size: 40px;
+                                padding: 10px 140px;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            .container.map {
+                .header {
+                    padding: 150px 0;
+
+                    h3 {
+                        font-size: 100px;
+                    }
+
+                    p {
+                        font-size: 50px;
+                    }
+                }
+            }
+
+            .carousel {
+                .header {
+                    padding: 150px 0;
+
+                    h3 {
+                        font-size: 100px;
+                    }
+
+                    p {
+                        font-size: 50px;
+                    }
+                }
+
+                .main {
+                    .container {
+                        font-size: 40px;
+                        width: 1000px;
+                        padding: 60px;
+
+                        .group {
+                            .profile {
+                                span {
+                                    p {
+                                        font-size: 40px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .footer {
+
+                    .container {
+                        .button {
+                            height: 90px;
+                            width: 90px;
+
+                            .material-symbols-outlined {
+                                font-size: 50px;
+
+                                padding: 0px;
+                            }
+                        }
+                    }
+
+                    .button-wrapper {
+                        .dot {
+                            height: 40px;
+                            width: 40px;
+                            margin: 20px;
+                        }
+
+                        .dot.active {
+                            width: 150px;
+                        }
+                    }
+                }
+            }
+
+            .row-rectangle {
+                .brand-svg {
+                    svg {
+                        width: 100%;
+                    }
+                }
+
+            }
+
+            .container.row.group {
+                .col {
+
+                    h2 {
+                        font-size: 65px;
+                    }
+
+                    p {
+                        font-size: 40px;
+                    }
+
+                    .button {
+                        font-size: 65px;
+                    }
+                }
+            }
+        }
+    }
+
+    //Footer
+    .main-footer {
+        .footer-body {
+            padding: unset 140px;
+
+            .group {
+                .brand.logo {
+                    h1 {
+                        font-size: 50px;
+                    }
+
+                    .material-symbols-outlined {
+                        font-size: 50px;
+                    }
+                }
+
+                .text,
+                .copyright {
+
+                    font-size: 40px;
+
+                }
+
+                .link-group {
+                    .brand.link {
+                        width: 110px;
+
+                        svg {
+                            width: 110px;
+                        }
+                    }
+                }
+
+            }
+
+            .list-group {
+                .list {
+                    .list-header {
+                        font-size: 40px;
+                    }
+
+                    .list-item {
+                        .link {
+                            font-size: 40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

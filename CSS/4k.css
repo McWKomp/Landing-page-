@@ -1,0 +1,154 @@
+@media screen and (min-width: 1570px) {
+  .main-header .header-body {
+    padding: 50px 140px;
+  }
+  .main-header .header-body > .header .brand h1 {
+    font-size: 60px;
+  }
+  .main-header .header-body > .header .brand h1 span {
+    font-size: 60px;
+  }
+  .main-header .header-body > .header .list .list-item .link {
+    font-size: 40px;
+  }
+  .main-header .header-body > .header .container .button {
+    font-size: 40px;
+  }
+  .main-header .header-body .main .container.row.group {
+    margin: 100px 0;
+  }
+  .main-header .header-body .main .container.row.group .col p {
+    font-size: 40px;
+  }
+  .main-header .header-body .main .container.row.group .col p b {
+    font-size: 40px;
+  }
+  .main-header .header-body .main .container.row.group .col .material-symbols-outlined {
+    font-size: 100px;
+  }
+  .main-header .header-body .main .container:last-of-type .list .list-item p {
+    font-size: 40px;
+  }
+  .main-header .header-body .main .container:last-of-type .list .list-item span {
+    font-size: 40px;
+  }
+  .main-header .header-body .main .container .paragraph .header h2 {
+    font-size: 100px;
+  }
+  .main-header .header-body .main .container .paragraph .text p {
+    font-size: 40px;
+  }
+  .main-header .header-body .main .container .paragraph .footer .button {
+    font-size: 40px;
+  }
+  .main-content .main-body {
+    padding: 50px 140px;
+  }
+  .main-content .main-body .container.plan .header {
+    padding: 150px 0;
+  }
+  .main-content .main-body .container.plan .header h3 {
+    font-size: 100px;
+  }
+  .main-content .main-body .container.plan .header p {
+    font-size: 50px;
+  }
+  .main-content .main-body .container.plan .main .col-rectangle h4 {
+    font-size: 60px;
+  }
+  .main-content .main-body .container.plan .main .col-rectangle .svg img {
+    height: 400px;
+  }
+  .main-content .main-body .container.plan .main .col-rectangle .list .list-item {
+    font-size: 40px;
+  }
+  .main-content .main-body .container.plan .main .col-rectangle .list .list-item span {
+    font-size: 40px;
+  }
+  .main-content .main-body .container.plan .main .col-rectangle .container p {
+    font-size: 40px;
+  }
+  .main-content .main-body .container.plan .main .col-rectangle .container .button {
+    font-size: 40px;
+    padding: 10px 140px;
+  }
+  .main-content .main-body .container.map .header {
+    padding: 150px 0;
+  }
+  .main-content .main-body .container.map .header h3 {
+    font-size: 100px;
+  }
+  .main-content .main-body .container.map .header p {
+    font-size: 50px;
+  }
+  .main-content .main-body .carousel .header {
+    padding: 150px 0;
+  }
+  .main-content .main-body .carousel .header h3 {
+    font-size: 100px;
+  }
+  .main-content .main-body .carousel .header p {
+    font-size: 50px;
+  }
+  .main-content .main-body .carousel .main .container {
+    font-size: 40px;
+    width: 1000px;
+    padding: 60px;
+  }
+  .main-content .main-body .carousel .main .container .group .profile span p {
+    font-size: 40px;
+  }
+  .main-content .main-body .carousel .footer .container .button {
+    height: 90px;
+    width: 90px;
+  }
+  .main-content .main-body .carousel .footer .container .button .material-symbols-outlined {
+    font-size: 50px;
+    padding: 0px;
+  }
+  .main-content .main-body .carousel .footer .button-wrapper .dot {
+    height: 40px;
+    width: 40px;
+    margin: 20px;
+  }
+  .main-content .main-body .carousel .footer .button-wrapper .dot.active {
+    width: 150px;
+  }
+  .main-content .main-body .row-rectangle .brand-svg svg {
+    width: 100%;
+  }
+  .main-content .main-body .container.row.group .col h2 {
+    font-size: 65px;
+  }
+  .main-content .main-body .container.row.group .col p {
+    font-size: 40px;
+  }
+  .main-content .main-body .container.row.group .col .button {
+    font-size: 65px;
+  }
+  .main-footer .footer-body {
+    padding: unset 140px;
+  }
+  .main-footer .footer-body .group .brand.logo h1 {
+    font-size: 50px;
+  }
+  .main-footer .footer-body .group .brand.logo .material-symbols-outlined {
+    font-size: 50px;
+  }
+  .main-footer .footer-body .group .text,
+  .main-footer .footer-body .group .copyright {
+    font-size: 40px;
+  }
+  .main-footer .footer-body .group .link-group .brand.link {
+    width: 110px;
+  }
+  .main-footer .footer-body .group .link-group .brand.link svg {
+    width: 110px;
+  }
+  .main-footer .footer-body .list-group .list .list-header {
+    font-size: 40px;
+  }
+  .main-footer .footer-body .list-group .list .list-item .link {
+    font-size: 40px;
+  }
+}
