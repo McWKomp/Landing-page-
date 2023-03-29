@@ -1,5 +1,5 @@
-let planButton = document.querySelectorAll(".col-rectangle .container .button");
-let colRects = document.querySelectorAll(".container.plan .main .col-rectangle")
+const planButton = document.querySelectorAll(".col-rectangle .container .button");
+const colRects = document.querySelectorAll(".container.plan .main .col-rectangle")
 
 planButton.forEach(button => {
     let buttonParent = button.parentElement.parentElement;
@@ -7,7 +7,7 @@ planButton.forEach(button => {
         for (let i = 0; i <= colRects.length; i++) {
             const element = colRects[i];
             buttonParent.style.boxShadow = "inset rgb(71, 71, 255, 1) 0px 0px 0px 3px";
-            colRects[i].style.boxShadow = "inset rgb(158, 158, 158, 0.4) 0px 0px 0px 3px";
+            element.style.boxShadow = "inset rgb(158, 158, 158, 0.4) 0px 0px 0px 3px";
         }
     });
 });
