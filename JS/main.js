@@ -1,12 +1,14 @@
 let planButton = document.querySelectorAll(".col-rectangle .container .button");
-let colRect = document.querySelectorAll(".col-rectangle");
+let colRects = document.querySelectorAll(".container.plan .main .col-rectangle")
 
 planButton.forEach(button => {
+    let buttonParent = button.parentElement.parentElement;
     button.addEventListener("mousedown", () => {
-        button.parentElement.parentElement.style.boxShadow = "inset rgb(78, 78, 255, 1) 0px 0px 0px 3px";
-    });
-    button.addEventListener("mouseup", () => {
-        button.parentElement.parentElement.style.boxShadow = "inset rgb(158, 158, 158, 0.4) 0px 0px 0px 3px";
+        for (let i = 0; i <= colRects.length; i++) {
+            const element = colRects[i];
+            buttonParent.style.boxShadow = "inset rgb(71, 71, 255, 1) 0px 0px 0px 3px";
+            colRects[i].style.boxShadow = "inset rgb(158, 158, 158, 0.4) 0px 0px 0px 3px";
+        }
     });
 });
 

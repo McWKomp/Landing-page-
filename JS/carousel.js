@@ -17,6 +17,12 @@ btnNext.addEventListener("click", () => {
         activeDot.classList.remove("active");
         nextDot.classList.add("active");
         carousel.style.transform += `translate(${-25}%)`;
+    } if (!nextSlide || !nextDot) {
+        carousel.style.transform += `translate(${75}%)`;
+        document.querySelector("#last-slide").classList.remove("active");
+        document.querySelector("#last-dot").classList.remove("active");
+        document.querySelector("#first-slide").classList.add("active");
+        document.querySelector("#first-dot").classList.add("active");
     }
 });
 
@@ -31,6 +37,12 @@ btnPrev.addEventListener("click", () => {
         activeDot.classList.remove("active");
         prevDot.classList.add("active");
         carousel.style.transform += `translate(${25}%)`;
+    } if (!prevSlide || !prevDot) {
+        carousel.style.transform += `translate(-${75}%)`;
+        document.querySelector("#last-slide").classList.add("active");
+        document.querySelector("#last-dot").classList.add("active");
+        document.querySelector("#first-slide").classList.remove("active");
+        document.querySelector("#first-dot").classList.remove("active");
     }
 });
 
