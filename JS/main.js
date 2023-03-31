@@ -6,8 +6,12 @@ planButton.forEach(button => {
     button.addEventListener("mousedown", () => {
         for (let i = 0; i <= colRects.length; i++) {
             const element = colRects[i];
+            const planItem = planButton[i];
             buttonParent.style.boxShadow = "inset rgb(71, 71, 255, 1) 0px 0px 0px 3px";
             element.style.boxShadow = "inset rgb(158, 158, 158, 0.4) 0px 0px 0px 3px";
+            planItem.classList.remove("active");
+            button.classList.add("active");
+
         }
     });
 });
